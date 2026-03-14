@@ -25,9 +25,9 @@ spec:
 
           envFrom:
             - configMapRef:
-              name: linkding-configmap
+                name: linkding-configmap
             - secretRef:
-              name: linkding-container-env
+                name: linkding-container-env
 
           securityContext:
             allowPrivilegeEscalation: false
