@@ -31,3 +31,16 @@ spec:
   values:
     grafana:
       adminPassword: test
+      ingress:
+        enabled: false
+        ingressClassName: traefik
+
+        hosts:
+          - grs.jamalissah.org
+
+        tls:[]
+          # - secretName: grafana-general-tls
+          #  hosts:
+          #    - grs.jamalissah.org
+
+
