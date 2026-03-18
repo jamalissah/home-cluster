@@ -32,7 +32,7 @@ spec:
             - mountPath: /metadata
               name: audiobookshelf-metadata
             - mounthPath: /audiobooks
-              name: audiobokshelf-audiobooks
+              name: audiobookshelf-audiobooks
 
       restartPolicy: Always
 
