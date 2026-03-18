@@ -38,9 +38,9 @@ spec:
         hosts:
           - grs.jamalissah.org
 
-        tls:[]
-          # - secretName: grafana-general-tls
-          #  hosts:
-          #    - grs.jamalissah.org
+        tls:
+          - secretName: grafana-tls-secret
+            hosts:
+              - grs.jamalissah.org
 
 
